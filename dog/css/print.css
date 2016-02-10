@@ -1,0 +1,35 @@
+@import url("main.css") print;
+
+@page{
+	size: A4;
+}
+
+@media print{
+	h1{
+		font-size: 18pt;
+	}
+	aside{
+		width: 60%;
+		font-size: 8pt;
+	}
+	.main-pix{
+		margin: 10px auto;
+	}
+	body{
+		font-size: 9.5pt;
+	}
+	figure{
+		margin: 1.1%;
+		padding: 0.5%;
+		height: 220px;
+	}
+	#lastpix{
+		width: 200px;
+	}
+	main{
+		width: 90%;
+	}
+	#cc-logo{
+		width: 28%;
+	}
+}
