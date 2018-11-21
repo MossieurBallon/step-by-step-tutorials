@@ -15,6 +15,9 @@
 	.main-pix{
 		margin: 10px auto;
 	}
+	.pagebreak{ 
+		page-break-before: always;
+	}
 	body{
 		font-size: 9.5pt;
 	}
