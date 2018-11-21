@@ -51,6 +51,13 @@ figure{
 	padding: 0.5%;
 }
 
+.twocolumns figure{
+	width: 46%;
+	float: left;
+	margin: 1%;
+	padding: 1%;
+}
+
 figcaption{
 	display:table;
 }
