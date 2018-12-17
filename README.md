@@ -1,2 +1,2 @@
 # step-by-step-tutorials
-Step by step PDF guides complementing Môssieur Ballon's video tutorials.
+Step by step photo guides complementing Môssieur Ballon's video tutorials.
