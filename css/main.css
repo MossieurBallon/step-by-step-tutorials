@@ -8,7 +8,7 @@ html, body {
     position: relative;
 }
 
-.main-pix:not([alt="Le logo de Môssieur Ballon"]) {
+.main-pix:not([src="../global-images/mr-ballon-logo.png"]) {
     width: 100%;
 	height: 380px;
 	object-fit: contain;
@@ -16,7 +16,7 @@ html, body {
 }
 
 
-[alt="Le logo de Môssieur Ballon"] {
+[src="../global-images/mr-ballon-logo.png"] {
     position: absolute;
     width: 245px;
     margin: 15px 30px;
@@ -27,8 +27,11 @@ html, body {
 }
 
 header {
-    margin-bottom: 42px;
-    min-height: 632px;
+    min-height: 674px;
+}
+
+header > br {
+    display: none;
 }
 
 header > p:first-of-type {
@@ -42,6 +45,8 @@ header > dl {
 
 header > ul {
     padding: 0 60px;
+    width: 190px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -51,6 +56,11 @@ h1 {
     padding: 30px 40px;
     background-color: #396f76;
     color: white;
+}
+
+h2 {
+    /* margin-top: 100px; */
+    padding-top: 60px;
 }
 
 aside {
@@ -83,6 +93,12 @@ dl {
 
 dt {
     margin-bottom: 13px;
+}
+
+.pagebreak + p > strong {
+    display: block;
+    page-break-inside: avoid;
+    padding: 40px 0;
 }
 
 main > p:first-child {
@@ -137,7 +153,7 @@ figure {
 
 figure img {
     width: 100%;
-    max-height: 134px;
+    max-height: 220px;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 50px;
