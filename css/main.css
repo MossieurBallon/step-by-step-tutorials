@@ -50,12 +50,24 @@ header > ul {
 }
 
 h1 {
-    font-size: 20px;
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     margin: 0;
     padding: 30px 40px;
-    background-color: #396f76;
+
+    max-height: 31px;
+    font-size: 20px;
+    text-align: end;
+
     color: white;
+    background-color: #396f76;
+}
+
+h1 span {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -162,6 +174,11 @@ figure img {
 
 figcaption {
     padding: 0 20px;
+}
+
+#lastpix {
+    width: 70%;
+    margin: auto;
 }
 
 #lastpix img {
