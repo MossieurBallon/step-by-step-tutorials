@@ -173,7 +173,7 @@ figure img {
 }
 
 figcaption {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 #lastpix {
@@ -182,7 +182,7 @@ figcaption {
 }
 
 #lastpix img {
-    margin-top: 50px;
+    margin-top: 30px;
     max-height: unset;
 }
 
